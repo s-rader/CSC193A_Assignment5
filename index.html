@@ -11,7 +11,28 @@
 		<h1>Fancify my Text</h1>
 		
 
-		<!-- Your UI controls go here -->
+        <form>
+            <fieldset>
+                <label for="textArea">Text:</label>
+                <textarea id="textArea" rows="4" cols="30"></textarea>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <label for="textArea">Text:</label>
+                <textarea id="textArea" rows="4" cols="30"></textarea>
+                <label>Choose an option:</label>
+                <input type="radio" id="option1" name="options" value="option1">
+                <label for="option1">Option 1</label>
+                
+                <input type="radio" id="option2" name="options" value="option2">
+                <label for="option2">Option 2</label>
+    
+                <button type="button" onclick="submitForm()">Submit</button>
+            </fieldset>
+        </form>
+
 		
 	</body>
 </html>
